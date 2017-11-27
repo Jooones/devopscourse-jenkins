@@ -1,0 +1,4 @@
+rootProject.name = 'devopscourse-test'
+
+include 'one'
+include 'two'
