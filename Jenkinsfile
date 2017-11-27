@@ -1,11 +1,6 @@
-stage('Builld') {
+stage('Build') {
+    sh './gradlew build'
 }
 stage('Test') {
-}
-stage('Deploy') {
-    milestone()
-    input "Proceed?"
-    milestone()
-}
-stage('Finished') {
+    sh './gradlew test'
 }
