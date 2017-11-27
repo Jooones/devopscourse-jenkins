@@ -9,6 +9,3 @@ stage('Deploy') {
 }
 stage('Finished') {
 }
-stage('Or so I thought') {
-
-}
